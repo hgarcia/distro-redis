@@ -2,7 +2,6 @@ var should = require("should");
 var redis = require('../index');
 var distro = require('distro');
 var sinon = require('sinon');
-var logger = {log: sinon.spy()};
 
 describe('redis', function () {
   var factory = distro.create(redis);
