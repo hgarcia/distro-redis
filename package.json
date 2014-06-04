@@ -1,0 +1,34 @@
+{
+  "name": "distro-redis",
+  "version": "0.1.0",
+  "description": "Redis transport for distro.",
+  "main": "index.js",
+  "scripts": {
+    "test-w": "mocha test/*.tests.js -R spec -w",
+    "test": "mocha test/*.tets.js -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:hgarcia/distro-redis.git"
+  },
+  "keywords": [
+    "Redis",
+    "distro",
+    "transport",
+    "pub-sub"
+  ],
+  "devDependencies": {
+    "mocha": "1.7.4",
+    "should": "1.2.1",
+    "sinon": "1.5.2"
+  },
+  "author": "Hernan Garcia <hernan@dynamicprogrammer.com> (http://dynamicprogrammer.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hgarcia/distro-redis/issues"
+  },
+  "dependencies": {
+    "redis": "0.10.3",
+    "distro": ""
+  }
+}
